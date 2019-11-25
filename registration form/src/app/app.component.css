@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url(images/y.png);
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h2{
+    color:white;
+    text-align:center;
+    font-style: normal;
+
+    padding:20px;
+}
+label{
+color:white;
+font-size:15px;
+font-style:italic;
+font-family: sans-serif;
+}
+#reg
+{
+    width:60%;
+    margin:auto;
+}
+.reg{
+    width:40%;
+    margin:auto;
+    background-color: rgb(0,0,0,0.5);
+    padding:10px;
+}
+#name{
+    width:300px;
+    outline:0px;
+    padding:5px;
+    border:3px ;
+}
+#sub{
+    width:300px;
+    outline:0px;
+    padding:5px;
+    border:3px ;
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+    background-color: blueviolet;
+}

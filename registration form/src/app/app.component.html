@@ -1,0 +1,38 @@
+<html>
+<head></head>
+     <body>
+           <div class="reg">
+     <form id="reg">
+     <div>
+           <h2> Register Here</h2>
+         <label>UserName: </label>
+   <input type="text" placeholder="Enter the username*" id="name"/>
+   <br><br>
+   <label>Email: </label>
+   <input type="email" placeholder="example@gmail.com*" id="name"/>
+   <br><br>
+   <label>Password</label>
+   <input type="password" id="name" />
+   <br><br>
+   <label>Organisation/Company: </label>
+   <input type="text" placeholder="name of organisation/company" id="name"/>
+   <br><br>
+
+   <label>House Number: </label>
+   <input type="text" placeholder="Door number" [(ngModel)]="hn" [ngModelOptions]="{standalone: true}" id="name"/><br><br>
+   <label>Street Name:</label>
+   <input type="text" placeholder="Street name" [(ngModel)]="sn" [ngModelOptions]="{standalone: true}" id="name"/><br><br>
+   <label>City: </label>
+   <input type="text" placeholder="city" [(ngModel)]="ct" [ngModelOptions]="{standalone: true}" id="name"/><br><br>
+   <label>Postal Code: </label>
+   <input type="number" placeholder="postalcode" [(ngModel)]="pc" [ngModelOptions]="{standalone: true}" id="name"/><br><br>
+   <label>Address: {{hn}}, {{sn}}, {{ct}}, {{pc}}</label><br><br>
+      <input type="checkbox">&nbsp;<label> I Agree all the terms & Conditions </label><br><br>
+      <button (click)="resetFields()" id="sub">Submit</button>
+      </div>
+      
+</form>
+</div>
+</body>
+</html>
+
